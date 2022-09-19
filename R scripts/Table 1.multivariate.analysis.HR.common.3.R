@@ -58,7 +58,7 @@ for (i in 1:N.Cancertypes) {
 ### Calculate the prognostic value of this signature 
 
 # Install required packages 
-source(paste0("~/Sidra Medicine - Research Division/TBI-LAB - General/Bioinformatics tools/R scripts/ipak.function.R"))
+source(paste0("./R scripts/ipak.function.R"))
 required.packages <- c("stringr", "survival","RColorBrewer", "forestplot")
 ipak(required.packages)
 
