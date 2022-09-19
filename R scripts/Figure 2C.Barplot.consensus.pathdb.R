@@ -28,8 +28,3 @@ svg(paste0("./Figures/Consensus.pathdb/TCGA.127.DEG.walk.ICR.HL.ConsensusDB.path
 
 plot_pathways_stacked_barplot(cleaned.pathways)
 dev.off()
-
-#Bubble plot
-png(("./R figures/CPBD_enriched_pathwyas_bubble.png"), res = 600, width = 13, height = 10, units = "in")
-plot_pathways(cleaned.pathways, 570, 13)
-dev.off()
