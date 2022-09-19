@@ -3,7 +3,7 @@
 # Prepare environment 
 rm(list = ls())
 load("~/R.Config.Rdata")
-setwd("~/Dropbox (SMCP)/NNN-BRCA/LncRNA_Analysis_Raghvendra")
+setwd("~/")
 
 # Install required packages 
 source(paste0("./R scripts/ipak.function.R"))
