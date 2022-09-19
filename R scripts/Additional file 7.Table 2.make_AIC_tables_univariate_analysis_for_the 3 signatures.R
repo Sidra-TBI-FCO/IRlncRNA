@@ -23,7 +23,7 @@ library(survivalAnalysis)
 
 
 #Gene.set = "common.3.pos.up.corr"
-load("./review.data.file.ICR.ssgsea.scaled.all.signatures.Rdata")
+load("./data.file.ICR.ssgsea.scaled.all.signatures.Rdata")
 all_scores_df <- all_scores_df[!is.na(all_scores_df$OS.status) & !is.na(all_scores_df$OS.time),]
 Cancertypes <- unique(all_scores_df$Cancer)
 
