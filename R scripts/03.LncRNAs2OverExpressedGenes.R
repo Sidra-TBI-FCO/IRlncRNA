@@ -5,7 +5,7 @@
 ####################################################################
 
 rm(list=ls())
-setwd("/export/cse/rmall/Network_Analysis/Julie_Related/")                                                                    # Setwd to location were output files have to be saved.
+setwd("~/")                                                                    # Setwd to location were output files have to be saved.
 
 #trace(utils:::unpackPkgZip, edit= TRUE)
 
