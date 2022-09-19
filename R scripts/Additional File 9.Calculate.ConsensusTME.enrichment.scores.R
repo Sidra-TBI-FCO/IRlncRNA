@@ -53,7 +53,7 @@ cancer_type = "BRCA"
 method = "ssgsea"
   
   # Loading the expression matriX of Arabs 
-  load("~/Dropbox (SMCP)/NNN-BRCA/RNAseq-RA-QA/Data/expression matrix/CTA_TNBC_BRCA_Qatar_RNASeq.tumor.tissue.annotated.EDAseq.QN.Rdata")
+  load("./Data/expression matrix/CTA_TNBC_BRCA_Qatar_RNASeq.tumor.tissue.annotated.EDAseq.QN.Rdata")
   
   filtered.norm.RNAseqData = RNASeq.QN.LOG2
   
